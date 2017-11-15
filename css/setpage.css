@@ -1,0 +1,319 @@
+/*彩色图标样式*/
+.iconf {
+   width: 1.5rem; 
+   height: 1.5rem;
+   vertical-align: -0.75em;
+   fill: currentColor;
+   overflow: hidden;
+   position: relative;
+   top: 1.5rem;
+   margin-right: 0.6rem;
+}
+
+.setting_center{
+	width: 100%;
+	overflow: hidden;
+	background-color: #ecf0f1;
+}
+
+.setting_center .user_img{
+	width: 35.6rem;
+	height: 9.5rem;
+	margin: 0 auto;
+	border-bottom: 0.05rem solid #e2e2e2;
+	overflow: hidden;
+}
+
+.setting_center .user_img .portrait{
+	width: 6rem;
+	height: 6rem;
+	margin: 1.7rem 0 0 2.3rem;
+	overflow: hidden;
+	border-radius: 6rem;
+	
+}
+.setting_center .user_img .portrait img{
+	height: 100%;
+	width: 100%;
+}
+
+.setting_center .admin_list{
+	width: 35.6rem;
+	margin: 0 auto;
+	
+}
+
+.setting_center .admin_list .thisli{
+	width: 100%;
+	height: 4.5rem;
+	text-align: left;
+	line-height: 4.5rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.setting_center .admin_list .thisli .fristcont{
+	flex: 1;
+	color: #666;
+	text-align: left;
+	text-indent: 2.5rem;
+	font-size: 1.25rem;
+}
+
+.setting_center .admin_list .thisli .textcont{
+	width: 50%;
+	color: #333;
+	font-size: 1.25rem;
+	
+	
+}
+
+.setting_center .admin_list .thisli .icont{
+	flex: 1;
+	color: #2758b9;
+	text-align: center;
+	font-size: 1.25rem;
+}
+.setting_center .admin_list .thisli .icont .smbtn{
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 10;
+}
+.setting_center .admin_list .thisli .datebtn>button:after{
+	content: '';
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    margin-top: -7px;
+    background: url(../img/dateimg.svg) no-repeat 50% 50%;
+    background-size: auto 100%;
+}
+.setting_center .admin_list .thisli .textcont .wortext{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.setting_center .admin_list .thisli .textcont .intext{
+	display: none;
+	width: 17.8rem;
+    height: 2.3rem;
+    border-radius: 0.6rem;
+    border: 0.05rem solid #d1d1d1;
+    text-indent: 0.5rem;
+    outline:none;
+}
+
+.setting_center .admin_list .modify_code{
+	width: 20.5rem;
+    margin-left: 5.5em;
+    margin-bottom: 1rem;
+    display: none;
+}
+
+.setting_center .admin_list .modify_code .fristInput{
+	width: 100%;
+	height: 2.3rem;
+    border-radius: 0.6rem;
+    border: 0.05rem solid #d1d1d1;
+    text-indent: 0.5rem;
+    outline:none;
+    margin-bottom: 1rem;
+}
+.setting_center .admin_list .modify_code .towInput{
+	width: 50%;
+	height: 2.3rem;
+    border-radius: 0.6rem;
+    border: 0.05rem solid #d1d1d1;
+    text-indent: 0.5rem;
+    margin-bottom: 1rem;
+    outline:none;
+}
+.setting_center .admin_list .modify_code .btnpass{
+	width: 45%;
+	height: 2.4rem;
+    border-radius: 0.6rem;
+    border: 0.05rem solid #2758b9;
+    color: #333;
+    margin-left: 0.8rem;
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+    /*清除button的默认样式*/
+    background:none;
+    outline:none;
+}
+
+.setting_center .admin_list .modify_code .hold{
+	display: inline-block;
+	height: 2.5rem;
+	width: 6.1rem;
+	border: 0.05rem solid #416cc0;
+	border-radius: 3.05rem;
+	text-align: center;
+	line-height: 2.5rem;
+	color: #416cc0;
+	font-size: 1.5rem;
+}
+
+.setting_center .admin_list .modify_code .cancel{
+	display: inline-block;
+	height: 2.5rem;
+	width: 6.1rem;
+	border: 0.05rem solid #416cc0;
+	border-radius: 3.05rem;
+	text-align: center;
+	line-height: 2.5rem;
+	color: #fff;
+	background-color: #416cc0;
+	margin-left: 1.9rem;
+	font-size: 1.5rem;
+}
+
+/*性别选择*/
+.setting_center .admin_list .thisli .modify_sex input[type='radio'].radio {
+	opacity:0;
+	display:inline-block; 
+	height:1rem; 
+}
+.setting_center .admin_list .thisli .modify_sex label.radio {
+	background:url(../img/checkout2.png) no-repeat; 
+	background-size: 1.4rem 1.4rem;
+	height:1.01rem; 
+	padding-left:2rem;
+}
+
+.setting_center .admin_list .thisli .modify_sex input[type='radio'].radio:checked + .radio {
+	background:url(../img/checkout.png) no-repeat;
+	background-size: 1.4rem 1.4rem;
+}
+#a{
+	width: 0;
+	margin: 0;
+}
+
+.setting_center .admin_list .thisli .modify_sex .sexon{
+	display: inline-block;
+	height: 2.5rem;
+	width: 6.1rem;
+	border: 0.05rem solid #416cc0;
+	border-radius: 3.05rem;
+	text-align: center;
+	line-height: 2.5rem;
+	color: #416cc0;
+	font-size: 1.5rem;
+	position: relative;
+    top: -1rem;
+}
+
+.setting_center .admin_list .thisli .modify_sex .sexoff{
+	display: inline-block;
+	height: 2.5rem;
+	width: 6.1rem;
+	border: 0.05rem solid #416cc0;
+	border-radius: 3.05rem;
+	text-align: center;
+	line-height: 2.5rem;
+	color: #fff;
+	background-color: #416cc0;
+	margin-left: 1.9rem;
+	font-size: 1.5rem;
+	position: relative;
+    top: -1rem;
+}
+
+/*生日选择*/
+.setting_center .admin_list .thisli .textcont .birthday{
+	display: none;
+	height: 100%;
+}
+.setting_center .admin_list .thisli .textcont .birthday .dateon{
+	display: inline-block;
+	height: 2.5rem;
+	width: 6.1rem;
+	border: 0.05rem solid #416cc0;
+	border-radius: 3.05rem;
+	text-align: center;
+	line-height: 2.5rem;
+	color: #416cc0;
+	font-size: 1.5rem;
+	position: relative;
+    top: -1rem;
+    margin-top: 1.5rem;
+}
+.setting_center .admin_list .thisli .textcont .birthday .dateoff{
+	display: inline-block;
+	height: 2.5rem;
+	width: 6.1rem;
+	border: 0.05rem solid #416cc0;
+	border-radius: 3.05rem;
+	text-align: center;
+	line-height: 2.5rem;
+	color: #fff;
+	background-color: #416cc0;
+	margin-left: 1.9rem;
+	font-size: 1.5rem;
+	position: relative;
+    top: -1rem;
+    margin-top: 1.5rem;
+}
+
+.prev{
+	border-right: 0.05rem solid #fff;
+}
+.next{
+	border-left: 0.05rem solid #fff;
+}
+
+
+.setting_center .bound{
+	width: 35.6rem;
+	margin: 0 auto;
+	display: flex;
+	font-size: 1.25rem;
+	flex-direction: row;
+}
+
+.setting_center .bound .bound_title{
+	flex: 1;
+	text-indent: 2.5rem;
+	line-height: 4.5rem;
+	color: #666666;
+}
+.setting_center .bound .bound_list{
+	width: 26.7rem;
+	color: #333;
+}
+
+.setting_center .bound .bound_list .bound{
+	height: 4.5rem;
+	line-height: 4.5rem;
+	letter-spacing: 0.1rem;
+}
+
+.setting_center .bound .bound_list .qq{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
